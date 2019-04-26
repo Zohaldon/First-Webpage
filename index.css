@@ -1,0 +1,127 @@
+	body 
+	{
+			background-color: #97bfd4;
+			color: red;
+			font-family: arial;
+			background: contain;
+
+	}
+	
+p , blockquote , pre
+	{
+		white-space: pre-wrap;
+		background-color:#6e3667;
+		color:#88d317;
+	}
+h1 {
+	color:#111111;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+img {
+	height: 8em;
+	float: left;
+	margin-right: 2em;
+}
+
+p#about {
+margin-left: 20em;
+}
+
+ul {
+	margin-left: 12em;
+}
+/* table start*/
+
+table {
+margin-left: auto;
+margin-right: auto;
+}
+
+th , td
+	{s
+border-width: 0.2em;
+border-style:groove ;
+border-color: #333a56;
+	}
+	
+/* table end*/
+
+/* starst of form*/
+input {
+		width:40%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+		background-color: #F85959;
+		color: white;
+		-webkit-transition: width 0.4s ease-in-out;
+		transition: width 0.4s ease-in-out;
+	  }
+
+select {
+		width: 40%;
+		padding: 16px 20px;
+		border: none;
+		border-radius: 4px;
+		background-color: #f1f1f1;
+}
+input[type=submit], input[type=reset] {
+		background-color:#F28449;
+		border: none;
+		color: white;
+		padding: 16px 32px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+}
+input:focus {
+    background-color:#F9CF66 ;
+	border: 3px solid red;
+}
+/* end of form*/
+	
+/* Start of Navigation */	
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border-radius: 5;
+	background:#063852;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;		
+}
+	
+nav ul li a:hover:not(.active) 
+			{
+				background-color: #011a27;
+            }
+
+nav ul li a.active 
+			{
+				background-color:#9CFA83;
+				color: #ff0000;
+			}
+nav ul li.right 
+			{
+				float: right;
+			}
+			
+@media screen and (max-width: 600px)
+			{
+				nav ul li.right, 
+				nav ul li {float: none;}
+			}
+/* End of Navigation */
